@@ -1,6 +1,6 @@
 <?php
     session_start();
-    include "../lib/dbconn.php";
+    include "../lib/password.php";
     echo "<meta charset='utf-8'>";
    // 이전화면에서 이름이 입력되지 않았으면 "이름을 입력하세요"
    // 메시지 출력

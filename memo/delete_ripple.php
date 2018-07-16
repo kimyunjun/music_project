@@ -1,5 +1,5 @@
 <?php
-      include "../lib/dbconn.php";
+      include "../lib/password.php";
       $num=$_GET['num'];
       $sql = "delete from memo_ripple where num=$num";
       mysqli_query($con,$sql);

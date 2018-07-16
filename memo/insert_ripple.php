@@ -27,7 +27,7 @@
 	 exit;
    }
    
-   include "../lib/dbconn.php";       // dconn.php 파일을 불러옴
+   include "../lib/password.php";       // dconn.php 파일을 불러옴
 
    $sql = "select * from member where id='$userid'";
    $result = mysqli_query($con,$sql);

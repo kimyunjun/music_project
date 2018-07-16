@@ -84,7 +84,7 @@
 </script>
 </head>
 <?php
-    include "../lib/dbconn.php";
+    include "../lib/password.php";
 
     $sql = "select * from member where id='{$userid}'";
     $result = mysqli_query($con,$sql);

@@ -1,5 +1,5 @@
 <?php
-   include "../lib/dbconn.php";
+   include "../lib/password.php";
 
    $num=$_GET['num'];
    $sql = "delete from memo where num = $num";

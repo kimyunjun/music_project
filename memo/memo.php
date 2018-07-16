@@ -2,7 +2,7 @@
     session_start();
     
     define(SCALE, 5);   //상수 정의
-    include_once "../lib/dbconn.php";
+    include_once "../lib/password.php";
     $userid=$_SESSION['userid'];
     
     $flag = "NO";
